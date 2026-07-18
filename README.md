@@ -406,12 +406,7 @@ To the extent possible under law, the authors have waived all copyright and rela
 
 ## 🔭 Star History
 
-<a href="https://star-history.com/#h-abar/scholar-dev-hub&Timeline">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=h-abar/scholar-dev-hub&type=Timeline&theme=dark" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=h-abar/scholar-dev-hub&type=Timeline" width="600" />
-  </picture>
-</a>
+[![Star History Chart](https://api.star-history.com/svg?repos=h-abar/scholar-dev-hub&type=Timeline)](https://star-history.com/#h-abar/scholar-dev-hub&Timeline)
 
 ## 📣 Share
 
