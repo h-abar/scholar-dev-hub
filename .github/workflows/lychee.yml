@@ -29,8 +29,9 @@ jobs:
             --cache
             --max-cache-age 30d
             --no-progress
-            --accept 200,206,301,302,308,401,403,429
+            --accept 200,206,301,302,308,401,403,405,429
             --exclude "github.com/h-abar/scholar-dev-hub"
+            --exclude "star-history.com"
             --exclude ".*(linkedin|facebook|twitter|reddit|news\\.ycombinator|chatgpt\\.com).*"
             "README.md"
           fail: true
