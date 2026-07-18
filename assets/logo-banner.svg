@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="240" viewBox="0 0 800 240" role="img" aria-label="Scholar Dev Hub">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1120"/>
+      <stop offset="0.55" stop-color="#111B2E"/>
+      <stop offset="1" stop-color="#0E2233"/>
+    </linearGradient>
+    <linearGradient id="cap" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6366F1"/>
+      <stop offset="1" stop-color="#06B6D4"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#F59E0B"/>
+      <stop offset="1" stop-color="#FBBF24"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+  </defs>
+
+  <!-- card -->
+  <rect x="0.5" y="0.5" width="799" height="239" rx="28" ry="28" fill="url(#bg)" stroke="#1F2A44" stroke-width="1"/>
+  <!-- subtle glow behind emblem -->
+  <circle cx="120" cy="120" r="78" fill="#6366F1" opacity="0.18" filter="url(#soft)"/>
+
+  <!-- atom orbits (science) -->
+  <g transform="translate(120 120)" opacity="0.55">
+    <ellipse cx="0" cy="0" rx="94" ry="38" fill="none" stroke="#22D3EE" stroke-width="1.8" transform="rotate(35)"/>
+    <ellipse cx="0" cy="0" rx="94" ry="38" fill="none" stroke="#818CF8" stroke-width="1.8" transform="rotate(-35)"/>
+  </g>
+
+  <!-- emblem disc -->
+  <circle cx="120" cy="120" r="72" fill="url(#cap)"/>
+  <circle cx="120" cy="120" r="72" fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity="0.85"/>
+  <circle cx="120" cy="120" r="66" fill="none" stroke="#FFFFFF" stroke-width="0.8" opacity="0.35"/>
+
+  <!-- graduation cap (mortarboard) -->
+  <polygon points="120,70 178,108 120,146 62,108" fill="#F8FAFC"/>
+  <!-- cap base (head dome) -->
+  <path d="M86,128 Q120,150 154,128 L154,150 Q120,170 86,150 Z" fill="#E2E8F0"/>
+  <!-- tassel -->
+  <path d="M120,70 L178,108 L178,158" fill="none" stroke="#F8FAFC" stroke-width="2.4" stroke-linecap="round"/>
+  <circle cx="178" cy="162" r="4.5" fill="url(#accent)"/>
+  <g stroke="#FBBF24" stroke-width="1.6" stroke-linecap="round">
+    <path d="M178,166 L178,178"/>
+    <path d="M174,167 L174,177"/>
+    <path d="M182,167 L182,177"/>
+  </g>
+
+  <!-- &lt;/&gt; on the mortarboard (dev) -->
+  <text x="120" y="120" text-anchor="middle" dominant-baseline="middle"
+        font-family="ui-monospace,'JetBrains Mono','Fira Code',Consolas,monospace"
+        font-size="22" font-weight="700" fill="#4338CA">&lt;/&gt;</text>
+
+  <!-- divider -->
+  <line x1="218" y1="58" x2="218" y2="182" stroke="#27344D" stroke-width="1.5"/>
+
+  <!-- top tag -->
+  <g>
+    <rect x="238" y="44" width="186" height="26" rx="13" fill="#0E2233" stroke="#22D3EE" stroke-width="1"/>
+    <text x="331" y="61" text-anchor="middle" font-family="ui-sans-serif,system-ui,'Segoe UI',Roboto,sans-serif"
+          font-size="11" font-weight="700" letter-spacing="1.4" fill="#22D3EE">✦ AWESOME  LIST  ·  2026  EDITION</text>
+  </g>
+
+  <!-- wordmark -->
+  <text x="238" y="112" font-family="ui-sans-serif,system-ui,'Segoe UI',Roboto,sans-serif"
+        font-size="50" font-weight="800" fill="#F8FAFC">Scholar<tspan fill="#22D3EE"> Dev</tspan> Hub</text>
+
+  <!-- subtitle -->
+  <text x="240" y="142" font-family="ui-sans-serif,system-ui,'Segoe UI',Roboto,sans-serif"
+        font-size="18" font-weight="500" fill="#CBD5E1">Curated resources for developers · students · academics · researchers</text>
+
+  <!-- mini stat pills -->
+  <g font-family="ui-sans-serif,system-ui,'Segoe UI',Roboto,sans-serif" font-size="12.5" font-weight="600">
+    <rect x="240" y="160" width="118" height="26" rx="13" fill="#112033" stroke="#334155" stroke-width="1"/>
+    <text x="299" y="177" text-anchor="middle" fill="#E2E8F0">🎓 170+ resources</text>
+
+    <rect x="366" y="160" width="96" height="26" rx="13" fill="#112033" stroke="#334155" stroke-width="1"/>
+    <text x="414" y="177" text-anchor="middle" fill="#E2E8F0">🧠 8 AI domains</text>
+
+    <rect x="470" y="160" width="96" height="26" rx="13" fill="#112033" stroke="#F59E0B" stroke-width="1"/>
+    <text x="518" y="177" text-anchor="middle" fill="#FBBF24">🌍 Bilingual</text>
+  </g>
+
+  <!-- decorative sparkle dots -->
+  <g fill="#64748B" opacity="0.6">
+    <circle cx="690" cy="60" r="2"/>
+    <circle cx="720" cy="80" r="1.4"/>
+    <circle cx="740" cy="52" r="2.4"/>
+    <circle cx="760" cy="74" r="1.4"/>
+  </g>
+</svg>

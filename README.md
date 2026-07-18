@@ -1,14 +1,40 @@
-# Scholar Dev Hub 🎓💻
+<p align="center">
+  <img src="assets/logo-banner.svg" alt="Scholar Dev Hub — curated resources for developers, students, academics and researchers" width="780" />
+</p>
 
-> Your one-stop curated hub of resources, tools, courses, cheat sheets, and best practices for **developers**, **students**, **professors & academics**, and **scientists & researchers** — free and open.
+<p align="center">
+  <em>A curated hub of free resources, tools, courses, cheat sheets &amp; best practices for <b>developers</b>, <b>students</b>, <b>professors &amp; academics</b>, and <b>scientists &amp; researchers</b> — with a flagship 2026 AI &amp; Agents section.</em>
+</p>
 
-> 🌙 **مرحبًا!** هذا الدليل الشامل يجمع أفضل الموارد والأدوات والدورات المجانية للمبرمجين والطلاب والأساتذة الجامعيين والباحثين في مكان واحد. تصفّح الأقسام أدناه، ولا تفوّت قسم [الموارد العربية](#-الموارد-العربية). إذا أعجبك المشروع، اضغط ⭐ وشاركه مع زملائك.
+<p align="center">
+  <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg" alt="License: CC0"></a>
+  <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
+  <a href="https://github.com/h-abar/scholar-dev-hub/commits"><img src="https://img.shields.io/github/last-commit/h-abar/scholar-dev-hub" alt="Last Commit"></a>
+  <a href="https://github.com/h-abar/scholar-dev-hub/stargazers"><img src="https://img.shields.io/github/stars/h-abar/scholar-dev-hub?style=social" alt="Stars"></a>
+  <a href="#ai-and-agents"><img src="https://img.shields.io/badge/AI%20%26%20Agents-2026-6366F1" alt="AI & Agents 2026"></a>
+</p>
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![License: CC0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Last Commit](https://img.shields.io/github/last-commit/h-abar/scholar-dev-hub)](https://github.com/h-abar/scholar-dev-hub/commits)
-[![Stars](https://img.shields.io/github/stars/h-abar/scholar-dev-hub?style=social)](https://github.com/h-abar/scholar-dev-hub/stargazers)
+<p align="center">
+  🌙 <strong>مرحبًا!</strong> دليل شامل يجمع أفضل الموارد والأدوات والدورات المجانية للمبرمجين والطلاب والأساتذة الجامعيين والباحثين في مكانٍ واحد — مع قسم رائد لأدوات الذكاء الاصطناعي والوكلاء لعام 2026. إذا أعجبك المشروع، اضغط ⭐ وشاركه.
+</p>
+
+---
+
+### ⚡ What makes this hub different
+
+<table>
+  <tr>
+    <td align="center"><b>🎓 Multi-audience</b><br/><sub>Devs · students · professors · researchers — every audience gets its own lens.</sub></td>
+    <td align="center"><b>🧠 Flagship AI &amp; Agents</b><br/><sub>A 2026 section covering MCP, agent frameworks, coding agents, RAG, evals & inference.</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><b>🌍 Bilingual</b><br/><sub>Extensive English index + a dedicated Arabic-resources section.</sub></td>
+    <td align="center"><b>✨ Curation over volume</b><br/><sub>Hand-picked, free + open resources — no link farms, no clones.</sub></td>
+  </tr>
+</table>
+
+> 💡 **Spotlight** — the differentiator: jump straight to [`🧠 AI & Agents`](#ai-and-agents) for the newest tooling in agent frameworks, the Model Context Protocol, coding agents (Claude Code, Cursor, Aider…), RAG &amp; memory, open-model inference, and LLM evaluation/observability.
 
 ---
 
