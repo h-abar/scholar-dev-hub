@@ -1,6 +1,6 @@
 # Scholar Dev Hub — Awesome Curated Resources for Developers, Students, Academics & Researchers
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![License: CC0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 <p align="center">
   <img src="assets/logo-banner.svg" alt="Scholar Dev Hub — curated resources for developers, students, academics and researchers" width="780" />
@@ -11,12 +11,11 @@
 </p>
 
 <p align="center">
-  <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg" alt="License: CC0"></a>
-  <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
-  <a href="https://github.com/h-abar/scholar-dev-hub/commits"><img src="https://img.shields.io/github/last-commit/h-abar/scholar-dev-hub" alt="Last Commit"></a>
-  <a href="https://github.com/h-abar/scholar-dev-hub/stargazers"><img src="https://img.shields.io/github/stars/h-abar/scholar-dev-hub?style=social" alt="Stars"></a>
-  <a href="#ai-and-agents"><img src="https://img.shields.io/badge/AI%20%26%20Agents-2026-6366F1" alt="AI & Agents 2026"></a>
+  <img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg" alt="License: CC0" />
+  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome" />
+  <a href="https://github.com/h-abar/scholar-dev-hub/commits"><img src="https://img.shields.io/github/last-commit/h-abar/scholar-dev-hub" alt="Last Commit" /></a>
+  <a href="https://github.com/h-abar/scholar-dev-hub/stargazers"><img src="https://img.shields.io/github/stars/h-abar/scholar-dev-hub?style=social" alt="Stars" /></a>
+  <img src="https://img.shields.io/badge/AI%20%26%20Agents-2026-6366F1" alt="AI & Agents 2026" />
 </p>
 
 <p align="center">
@@ -25,7 +24,7 @@
 
 ---
 
-### ⚡ What makes this hub different
+**⚡ What makes this hub different**
 
 <table>
   <tr>
@@ -38,7 +37,7 @@
   </tr>
 </table>
 
-> 💡 **Spotlight** — the differentiator: jump straight to [`🧠 AI & Agents`](#ai-and-agents) for the newest tooling in agent frameworks, the Model Context Protocol, coding agents (Claude Code, Cursor, Aider…), RAG &amp; memory, open-model inference, and LLM evaluation/observability.
+> 💡 **Spotlight** — the differentiator: jump straight to the **🧠 AI &amp; Agents** section for the newest tooling in agent frameworks, the Model Context Protocol, coding agents (Claude Code, Cursor, Aider…), RAG &amp; memory, open-model inference, and LLM evaluation/observability.
 
 ---
 
@@ -120,8 +119,7 @@
 
 ---
 
-<a id="ai-and-agents"></a>
-## 🧠 AI & Agents
+## AI and Agents
 
 > **الحديث والقوي:** قسم مخصّص لأحدث أدوات الذكاء الاصطناعي والوكلاء (AI Agents) لعام 2025–2026 — من أطر بناء الوكلاء إلى MCP، وأدوات البرمجة الذكية، واسترجاع المعرفة المُعزّز (RAG)، وتشغيل النماذج محليًا، وتقييم الوكلاء. هنا تكمُن الميزة التنافسية لهذا الدليل.
 
@@ -156,7 +154,7 @@
 - [Cursor](https://cursor.com) - The AI code editor built around multi-file edits and an agent mode.
 - [Windsurf](https://windsurf.com) - Agentic IDE (formerly Codeium) with Cascade flows for autonomous edits.
 - [Zed](https://zed.dev) - Blazing-fast native editor with an integrated AI assistant panel.
-- [Aider](https://github.com/Aider-AI/aider) - CLI coding assistant that edits your git repo and commits with you as the pair programmer.
+- [Aider](https://github.com/Aider-AI/aider) - CLI coding assistant that edits your Git repo and commits with you as the pair programmer.
 - [Continue](https://github.com/continuedev/continue) - Open-source extension to build your own autocomplete and chat inside VS Code and JetBrains.
 - [Cline](https://github.com/cline/cline) - Open-source autonomous coding agent that runs in your editor with per-step approval.
 - [OpenCode](https://github.com/sst/opencode) - Open-source terminal-based AI coding agent.
@@ -189,7 +187,7 @@
 
 ### <a id="open-models-inference-finetuning"></a>Open Models, Inference & Fine-Tuning
 
-- [Ollama](https://ollama.com) - Run Llama, Qwen, DeepSeek, Mistral, and more locally with one command.
+- [Ollama](https://ollama.com) - Run LLaMA, Qwen, DeepSeek, Mistral, and more locally with one command.
 - [LM Studio](https://lmstudio.ai) - Desktop app to discover, download, and chat with local models.
 - [vLLM](https://github.com/vllm-project/vllm) - The high-throughput, memory-efficient inference engine behind most production LLM serving.
 - [SGLang](https://github.com/sgl-project/sglang) - Fast structured generation and serving with RadixAttention caching.
@@ -305,10 +303,10 @@
 
 ### Data Analysis & Visualization
 
-- [pandas](https://pandas.pydata.org) - The essential Python library for data manipulation and analysis.
+- [Pandas](https://pandas.pydata.org) - The essential Python library for data manipulation and analysis.
 - [NumPy](https://numpy.org) - Fundamental package for numerical computing in Python.
 - [SciPy](https://scipy.org) - Python ecosystem for mathematics, science, and engineering.
-- [matplotlib](https://matplotlib.org) - The foundational plotting library for Python.
+- [Matplotlib](https://matplotlib.org) - The foundational plotting library for Python.
 - [Plotly](https://plotly.com) - Interactive, publication-quality graphs for Python, R, and JavaScript.
 - [The Tidyverse](https://www.tidyverse.org) - An opinionated collection of R packages for data science (ggplot2, dplyr, etc.).
 - [Posit (RStudio)](https://posit.co) - The most popular IDE for R and Python data science.
@@ -330,6 +328,7 @@
 - [PhD on Track](https://www.phdontrack.net) - Free resource on literature review, methodology, and publishing for PhD candidates.
 - [The Thesis Whisperer](https://thesiswhisperer.com) - Long-running blog dedicated to helping researchers finish their thesis.
 - [Nature Masterclasses](https://masterclasses.nature.com) - Training courses on scientific writing and publishing, from Nature editors.
+<!--lint ignore awesome-spell-check-->
 - [PRISMA Statement](http://www.prisma-statement.org) - The standard checklist and flow diagram for systematic reviews and meta-analyses.
 - [metafor](https://www.metafor-project.org) - The go-to R package for conducting meta-analyses.
 - [RevMan](https://revman.cochrane.org) - Cochrane's official software for systematic reviews.
@@ -365,7 +364,7 @@
 - [منصة دروب](https://doroob.sa) - مبادرة سعودية للتدريب الإلكتروني المجاني في المهارات التقنية والمهنية.
 - [الباحثون السوريون](https://www.syr-res.com) - أكبر شبكة عربية للتبسيط العلمي بمقالات موثوقة في مختلف العلوم.
 
-> 💡 هل تعرف مصدرًا عربيًا آخر يستحق الإضافة؟ راجع [دليل المساهمة](CONTRIBUTING.md) وأرسل Pull Request.
+> 💡 هل تعرف مصدرًا عربيًا آخر يستحق الإضافة؟ راجع دليل المساهمة وأرسل Pull Request.
 
 ---
 
@@ -385,7 +384,7 @@
 
 Contributions are welcome! Whether it's a new resource, a fix, or a better description — please read the [contribution guidelines](CONTRIBUTING.md) first, then open a Pull Request. We also have a [Code of Conduct](CODE_OF_CONDUCT.md).
 
-المساهمة متاحة للجميع! اقرأ [دليل المساهمة](CONTRIBUTING.md) ثم أرسل Pull Request.
+المساهمة متاحة للجميع! اقرأ دليل المساهمة ثم أرسل Pull Request.
 
 ## 🗺️ Roadmap
 
