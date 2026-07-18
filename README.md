@@ -119,7 +119,8 @@
 
 ---
 
-## AI and Agents
+<a id="ai-and-agents"></a>
+## 🧠 AI & Agents
 
 > **الحديث والقوي:** قسم مخصّص لأحدث أدوات الذكاء الاصطناعي والوكلاء (AI Agents) لعام 2025–2026 — من أطر بناء الوكلاء إلى MCP، وأدوات البرمجة الذكية، واسترجاع المعرفة المُعزّز (RAG)، وتشغيل النماذج محليًا، وتقييم الوكلاء. هنا تكمُن الميزة التنافسية لهذا الدليل.
 
@@ -159,8 +160,8 @@
 - [Cline](https://github.com/cline/cline) - Open-source autonomous coding agent that runs in your editor with per-step approval.
 - [OpenCode](https://github.com/sst/opencode) - Open-source terminal-based AI coding agent.
 - [Void](https://github.com/voideditor/void) - Open-source Cursor-like editor with local model support.
-- [Sourcegraph Cody](https://github.com/sourcegraph/cody) - AI coding assistant that understands your entire codebase at scale.
-- [Amp](https://github.com/sourcegraph/amp) - Sourcegraph's agentic coding tool that works across many repos and tasks.
+- [Sourcegraph Cody](https://sourcegraph.com/cody) - AI coding assistant that understands your entire codebase at scale.
+- [Amp](https://ampcode.com) - Sourcegraph's agentic coding tool that works across many repos and tasks.
 
 ### <a id="browser-computer-use-voice-agents"></a>Browser, Computer-Use & Voice Agents
 
@@ -191,7 +192,7 @@
 - [LM Studio](https://lmstudio.ai) - Desktop app to discover, download, and chat with local models.
 - [vLLM](https://github.com/vllm-project/vllm) - The high-throughput, memory-efficient inference engine behind most production LLM serving.
 - [SGLang](https://github.com/sgl-project/sglang) - Fast structured generation and serving with RadixAttention caching.
-- [llama.cpp](https://github.com/ggerganov/llama.cpp) - C/C++ engine that runs Llama models on CPUs and consumer GPUs everywhere.
+- [llama.cpp](https://github.com/ggerganov/llama.cpp) - C/C++ engine that runs LLaMA models on CPUs and consumer GPUs everywhere.
 - [MLX](https://github.com/ml-explore/mlx) - Apple's array framework for fast ML on Apple Silicon.
 - [Transformers](https://github.com/huggingface/transformers) - The canonical library for downloading and running state-of-the-art models.
 - [Together AI](https://www.together.ai) - Hosted open-model inference plus fine-tuning endpoints.
@@ -362,7 +363,7 @@
 - [منصة إدراك](https://www.edraak.org) - مساقات مجانية بالعربية من مؤسسة الملكة رانيا، تشمل علوم الحاسوب والمهارات العملية.
 - [منصة رواق](https://www.rwaq.org) - منصة عربية للمساقات الأكاديمية المفتوحة في مختلف التخصصات.
 - [منصة دروب](https://doroob.sa) - مبادرة سعودية للتدريب الإلكتروني المجاني في المهارات التقنية والمهنية.
-- [الباحثون السوريون](https://www.syr-res.com) - أكبر شبكة عربية للتبسيط العلمي بمقالات موثوقة في مختلف العلوم.
+- [الباحثون السوريون](https://syr-res.com) - أكبر شبكة عربية للتبسيط العلمي بمقالات موثوقة في مختلف العلوم.
 
 > 💡 هل تعرف مصدرًا عربيًا آخر يستحق الإضافة؟ راجع دليل المساهمة وأرسل Pull Request.
 
