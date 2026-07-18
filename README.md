@@ -1,3 +1,7 @@
+# Scholar Dev Hub — Awesome Curated Resources for Developers, Students, Academics & Researchers
+
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![License: CC0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+
 <p align="center">
   <img src="assets/logo-banner.svg" alt="Scholar Dev Hub — curated resources for developers, students, academics and researchers" width="780" />
 </p>
@@ -136,7 +140,7 @@
 
 ### <a id="mcp-and-protocols"></a>Model Context Protocol (MCP) & Protocols
 
-- [Model Context Protocol](https://modelcontextprotocol.io/) - The open standard by Anthropic that lets models securely connect to tools and data sources.
+- [Model Context Protocol](https://modelcontextprotocol.io) - The open standard by Anthropic that lets models securely connect to tools and data sources.
 - [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) - The definitive, massive catalog of MCP servers (90k+ stars).
 - [Glama MCP directory](https://glama.ai/mcp/servers) - Searchable web directory of MCP servers, synced with the awesome list.
 - [awesome-mcp-clients](https://github.com/punkpeye/awesome-mcp-clients) - Companion list of editors and apps that speak MCP.
@@ -229,7 +233,7 @@
 
 - [OSSU Computer Science](https://github.com/ossu/computer-science) - A complete, free, self-taught computer science degree using world-class materials.
 - [MIT OpenCourseWare](https://ocw.mit.edu) - Free lecture notes, exams, and videos from virtually all MIT courses.
-- [CS50 (Harvard)](https://cs50.harvard.edu/x/) - Harvard's legendary introduction to computer science, free online.
+- [CS50 (Harvard)](https://cs50.harvard.edu/x) - Harvard's legendary introduction to computer science, free online.
 - [The Missing Semester of Your CS Education](https://missing.csail.mit.edu) - The tools course universities forget: shell, Git, Vim, debugging, and more.
 
 ### Free Learning Platforms
@@ -322,7 +326,7 @@
 
 ### PhD Life & Academic Writing
 
-- [How to Write a Great Research Paper](https://www.microsoft.com/en-us/research/academic-program/write-great-research-paper/) - Simon Peyton Jones's classic, must-watch guide to paper writing.
+- [How to Write a Great Research Paper](https://www.microsoft.com/en-us/research/academic-program/write-great-research-paper) - Simon Peyton Jones's classic, must-watch guide to paper writing.
 - [PhD on Track](https://www.phdontrack.net) - Free resource on literature review, methodology, and publishing for PhD candidates.
 - [The Thesis Whisperer](https://thesiswhisperer.com) - Long-running blog dedicated to helping researchers finish their thesis.
 - [Nature Masterclasses](https://masterclasses.nature.com) - Training courses on scientific writing and publishing, from Nature editors.
@@ -379,15 +383,51 @@
 
 ## 🤝 Contributing
 
-Contributions are welcome! Whether it's a new resource, a fix, or a better description — please read the [contribution guidelines](CONTRIBUTING.md) first, then open a Pull Request.
+Contributions are welcome! Whether it's a new resource, a fix, or a better description — please read the [contribution guidelines](CONTRIBUTING.md) first, then open a Pull Request. We also have a [Code of Conduct](CODE_OF_CONDUCT.md).
 
 المساهمة متاحة للجميع! اقرأ [دليل المساهمة](CONTRIBUTING.md) ثم أرسل Pull Request.
+
+## 🗺️ Roadmap
+
+What's coming next to keep this hub the freshest reference:
+
+- [ ] Weekly automated link-checking (lychee) and `awesome-lint` CI
+- [ ] GitHub Pages site with full-text search
+- [ ] Per-audience downloadable cheatsheets (PDF)
+- [ ] Curated "resource of the week" highlights
+- [ ] Translations: العربية · Français · Español · 中文
+- [ ] A "Trending Tools" sub-section refreshed monthly
 
 ## 📜 License
 
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 To the extent possible under law, the authors have waived all copyright and related rights to this work. See [LICENSE](LICENSE) for details — this list belongs to everyone.
+
+## 🔭 Star History
+
+<a href="https://star-history.com/#h-abar/scholar-dev-hub&Timeline">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=h-abar/scholar-dev-hub&type=Timeline&theme=dark" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=h-abar/scholar-dev-hub&type=Timeline" width="600" />
+  </picture>
+</a>
+
+## 📣 Share
+
+Help more learners and researchers discover this hub:
+
+- [Share on X / Twitter](https://twitter.com/intent/tweet?text=Scholar%20Dev%20Hub%20%E2%80%94%20a%20curated%20hub%20of%20free%20resources%20for%20developers%2C%20students%2C%20academics%20%26%20researchers%2C%20with%20a%202026%20AI%20%26%20Agents%20section.&url=https://github.com/h-abar/scholar-dev-hub&hashtags=awesome%2Caiagents%2Cmcp%2Cprogramming%2Cphd)
+- [Share on LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url=https://github.com/h-abar/scholar-dev-hub)
+- [Share on Reddit](https://www.reddit.com/submit?url=https://github.com/h-abar/scholar-dev-hub&title=Scholar%20Dev%20Hub%20%E2%80%94%20curated%20resources%20for%20devs%2C%20students%2C%20academics%20%26%20researchers)
+- [Discuss on Hacker News](https://news.ycombinator.com/submitlink?u=https://github.com/h-abar/scholar-dev-hub&t=Scholar%20Dev%20Hub)
+
+<details>
+<summary><b>🔍 SEO keywords (for discoverability)</b></summary>
+
+This hub covers: awesome list, curated resources, developer resources, programming resources, free programming books, developer roadmap, coding interview prep, system design, computer science curriculum, free courses, student developer pack, hackathons, internships, note-taking tools, academic writing, LaTeX, Overleaf, Zotero, research tools, literature discovery, arXiv, Semantic Scholar, Connected Papers, data analysis, Python, R, tidyverse, reproducible research, open science, PhD resources, meta-analysis, AI agents, AI tools, LLM, large language models, MCP, Model Context Protocol, agent frameworks, LangGraph, CrewAI, AutoGen, coding agents, Claude Code, Cursor, Aider, RAG, retrieval-augmented generation, Ollama, vLLM, llama.cpp, fine-tuning, LoRA, LLM evaluation, observability, guardrails, productivity, Arabic programming resources, موارد عربية, تعلم البرمجة, الذكاء الاصطناعي, الوكلاء الأذكياء, أدوات البحث العلمي.
+
+</details>
 
 ---
 

@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If this hub helped you, please star the repository and cite it as below."
+title: "Scholar Dev Hub: A Curated Hub of Free Resources for Developers, Students, Academics and Researchers"
+type: software
+authors:
+  - alias: h-abar
+abstract: >-
+  A one-stop curated hub of free resources, tools, courses, cheat sheets and
+  best practices for developers, students, professors and academics, and
+  scientists and researchers — with a flagship 2026 AI and Agents section
+  covering the Model Context Protocol, agent frameworks, coding agents,
+  retrieval-augmented generation, evaluation and observability, and
+  open-model inference and fine-tuning.
+keywords:
+  - awesome-list
+  - curated-resources
+  - developers
+  - students
+  - academics
+  - researchers
+  - ai-agents
+  - mcp
+  - llm
+  - rag
+  - arabic-resources
+license: CC0-1.0
+repository-code: https://github.com/h-abar/scholar-dev-hub
+url: https://github.com/h-abar/scholar-dev-hub
+date-released: "2026-07-18"

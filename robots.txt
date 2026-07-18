@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://h-abar.github.io/scholar-dev-hub/sitemap.xml

@@ -1,0 +1,43 @@
+title: Scholar Dev Hub
+description: >-
+  A curated hub of free resources, tools, courses, cheat sheets and best practices
+  for developers, students, professors & academics, and scientists & researchers
+  — with a flagship 2026 AI & Agents section (MCP, agent frameworks, coding
+  agents, RAG, evaluation, open-model inference).
+theme: jekyll-theme-cayman
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-titles-from-headings
+titles_from_headings:
+  enabled: true
+  strip_title: true
+readme_index:
+  remove_originals: false
+  with_frontmatter: false
+lsi: false
+incremental: true
+sass:
+  style: compressed
+exclude:
+  - .github/
+  - CONTRIBUTING.md
+  - CODE_OF_CONDUCT.md
+  - CITATION.cff
+  - LICENSE
+google_analytics: false
+lang: en
+author:
+  name: h-abar
+  url: https://github.com/h-abar
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/logo-banner.svg
+tagline: One-stop curated hub for devs, students, academics and researchers.
+url: https://h-abar.github.io
+baseurl: /scholar-dev-hub
+repository: h-abar/scholar-dev-hub

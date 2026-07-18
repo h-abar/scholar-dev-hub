@@ -1,0 +1,42 @@
+name: Link Checking
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "README.md"
+  pull_request:
+    paths:
+      - "README.md"
+  schedule:
+    - cron: "0 6 * * 1" # every Monday at 06:00 UTC
+
+jobs:
+  lychee:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Restore lychee cache
+        uses: actions/cache@v4
+        with:
+          path: .lycheecache
+          key: lychee-cache-${{ github.sha }}
+          restore-keys: lychee-cache-
+      - name: Check links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --cache
+            --max-cache-age 30d
+            --no-progress
+            --accept 200,206,429
+            --exclude ".*(linkedin|facebook|twitter|reddit|news\\.ycombinator|chatgpt\\.com).*"
+            "README.md"
+          fail: true
+      - name: Create link-check issue on failure
+        if: failure() && github.event_name == 'schedule'
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: "Broken links detected by lychee"
+          content-filepath: lychee/out.md
+          labels: bug, dead-link
