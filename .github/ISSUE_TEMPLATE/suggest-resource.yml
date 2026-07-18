@@ -1,0 +1,53 @@
+name: 💡 Suggest a Resource
+description: Suggest a new resource to be added to the hub
+title: "[Suggest]: <resource name>"
+labels: ["suggestion"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Resource Name
+      description: The official name of the tool, site, course, or repository.
+      placeholder: e.g. Zotero
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: Direct HTTPS link to the resource (no shorteners or affiliate links).
+      placeholder: https://example.com
+    validations:
+      required: true
+  - type: dropdown
+    id: section
+    attributes:
+      label: Suggested Section
+      options:
+        - For Developers
+        - For Students
+        - For Professors & Academics
+        - For Scientists & Researchers
+        - AI Tools & Productivity
+        - الموارد العربية (Arabic Resources)
+        - Featured Awesome Lists
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Short Description
+      description: One sentence explaining what it is and why it's valuable.
+      placeholder: Free, open-source reference manager to collect, organize, cite, and share research.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Confirmation
+      options:
+        - label: I searched the list and this resource is not already included.
+          required: true
+        - label: The resource is free, open-source, or has a genuinely useful free tier.
+          required: true

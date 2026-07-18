@@ -1,0 +1,28 @@
+name: 🔗 Report a Dead or Broken Link
+description: Report a link that no longer works or points to the wrong place
+title: "[Dead Link]: <resource name>"
+labels: ["bug", "dead-link"]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Broken URL
+      description: The link in the list that no longer works.
+      placeholder: https://example.com
+    validations:
+      required: true
+  - type: input
+    id: replacement
+    attributes:
+      label: Working Replacement (optional)
+      description: If you know the new/correct URL, paste it here.
+      placeholder: https://new-example.com
+    validations:
+      required: false
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: What happens when you visit the link? (404, redirect, domain parked, etc.)
+    validations:
+      required: false
