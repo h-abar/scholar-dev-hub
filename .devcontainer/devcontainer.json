@@ -1,0 +1,61 @@
+// Scholar Dev Hub — Reproducible AI development environment
+// Works in VS Code (Dev Containers), GitHub Codespaces, and any OCI host.
+{
+  "name": "Scholar Dev Hub — AI Development Environment",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+
+  "features": {
+    // Node.js for MCP servers (most MCP servers ship as npx packages)
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "20",
+      "nodeGypDependencies": true
+    },
+    // GitHub CLI for auth, releases, and repo automation
+    "ghcr.io/devcontainers/features/github-cli:1": {},
+    // Run Docker inside the container (useful for sandboxing agents)
+    "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {}
+  },
+
+  // Forward ports commonly used by local AI tools / notebooks
+  "forwardPorts": [8888, 3000, 4321, 7860],
+
+  // Mount the agent rules directory so any agent tool sees the project rules
+  "mounts": [
+    "source=${localWorkspaceFolder}/rules,target=/workspace-rules,type=bind,consistency=cached"
+  ],
+
+  "containerEnv": {
+    "AGENT_RULES_DIR": "/workspace-rules",
+    "PYTHONUNBUFFERED": "1"
+  },
+
+  "postCreateCommand": "pip install --user --no-cache-dir uv ruff black && echo 'AI dev environment ready.'",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "charliermarsh.ruff",
+        "ms-toolsai.jupyter",
+        "redhat.vscode-yaml",
+        "tamasfe.even-better-toml",
+        "GitHub.copilot",
+        "anthropic.claude-code",
+        "blockchain.spellright"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/python/current/bin/python",
+        "python.formatting.provider": "black",
+        "editor.formatOnSave": true,
+        "editor.rulers": [100],
+        "files.trimTrailingWhitespace": true,
+        "[python]": { "editor.defaultFormatter": "charliermarsh.ruff" }
+      }
+    }
+  },
+
+  "remoteUser": "vscode"
+}

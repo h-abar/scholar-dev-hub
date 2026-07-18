@@ -1,0 +1,46 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "${workspaceFolder}"
+      ],
+      "_comment": "Read-write access to your project files. Replace ${workspaceFolder} with an absolute path when used outside Cursor."
+    },
+
+    "fetch": {
+      "command": "npx",
+      "args": ["-y", "@kazuph/mcp-fetch"],
+      "_comment": "Lightweight web fetch for retrieving docs/pages as text without a browser."
+    },
+
+    "sequential-thinking": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-sequential-thinking"],
+      "_comment": "Step-by-step reasoning tool — helps agents break down complex tasks instead of jumping to the first plausible answer."
+    },
+
+    "sqlite": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-sqlite",
+        "${workspaceFolder}/data.db"
+      ],
+      "_comment": "Optional: a local SQLite database for the agent to query. Remove if your project doesn't use SQL."
+    }
+  },
+
+  "_meta": {
+    "_comment": "Example .mcp.json copied from Scholar Dev Hub. Rename to `.mcp.json` (Claude Code) or merge into your client's MCP config (Cursor, Windsurf, Cline, Continue). Docs: https://modelcontextprotocol.io/",
+    "_verified_servers": [
+      "@modelcontextprotocol/server-filesystem",
+      "@modelcontextprotocol/server-sequential-thinking",
+      "@modelcontextprotocol/server-sqlite",
+      "@kazuph/mcp-fetch"
+    ],
+    "_tip": "Discover thousands more MCP servers in https://github.com/punkpeye/awesome-mcp-servers and https://mcp.so — install only what you trust, and pin versions in production."
+  }
+}

@@ -74,6 +74,7 @@
 - [🤖 AI Tools & Productivity](#-ai-tools--productivity)
 - [🌍 الموارد العربية](#-الموارد-العربية)
 - [✨ Featured Awesome Lists](#-featured-awesome-lists)
+- [🧰 Reusable Dev Environment & Templates](#-reusable-dev-environment--templates)
 
 ---
 
@@ -159,6 +160,10 @@
 - [Continue](https://github.com/continuedev/continue) - Open-source extension to build your own autocomplete and chat inside VS Code and JetBrains.
 - [Cline](https://github.com/cline/cline) - Open-source autonomous coding agent that runs in your editor with per-step approval.
 - [OpenCode](https://github.com/sst/opencode) - Open-source terminal-based AI coding agent.
+- [Gemini CLI](https://github.com/google-gemini/gemini-cli) - Google's open-source agent that brings Gemini directly into your terminal with 1M-token context.
+- [Kimi CLI](https://github.com/MoonshotAI/kimi-cli) - Moonshot AI's next CLI coding agent, optimized for long-context agentic tasks.
+- [Codex](https://github.com/openai/codex) - OpenAI's lightweight coding agent that runs in your terminal.
+- [Qwen Code](https://github.com/QwenLM/qwen-code) - Alibaba's open-source agentic coding CLI built on the Qwen models.
 - [Void](https://github.com/voideditor/void) - Open-source Cursor-like editor with local model support.
 - [Sourcegraph Cody](https://sourcegraph.com/cody) - AI coding assistant that understands your entire codebase at scale.
 - [Amp](https://ampcode.com) - Sourcegraph's agentic coding tool that works across many repos and tasks.
@@ -378,6 +383,41 @@
 - [Awesome Courses](https://github.com/prakhar1989/awesome-courses) - مواد جامعية كاملة في علوم الحاسوب متاحة مجانًا.
 - [Papers We Love](https://github.com/papers-we-love/papers-we-love) - مجتمع وقائمة لأهم الأوراق البحثية في علوم الحاسوب.
 - [Awesome Selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) - برمجيات وخدمات مجانية يمكنك استضافتها بنفسك.
+
+---
+
+---
+
+<a id="reusable-dev-environment"></a>
+## 🧰 Reusable Dev Environment & Templates
+
+> This isn't just a list — it's a **clone-and-build** starter. Instead of reconfiguring your AI tools for every project, copy these templates into your repo and start in minutes.
+
+### What's included
+
+- **`.devcontainer/`** — a one-click, reproducible AI development environment for VS Code, Codespaces, and any container host. Pre-loaded with Python, Node.js, Git, and the GitHub CLI so every coding agent (Claude Code, Aider, Cursor, Gemini CLI, Kimi CLI, Qwen Code, OpenCode) just runs.
+- **`rules/`** — battle-tested agent-config templates you can drop into any repository:
+  - [`rules/AGENTS.md`](rules/AGENTS.md) — a generic rules file every modern coding agent reads automatically (Claude Code, Aider, Cursor, Codex, Gemini CLI, Kimi CLI, Qwen Code, OpenCode). Define project context, conventions, commands, and guardrails in one place.
+  - [`rules/CLAUDE.md`](rules/CLAUDE.md) — a Claude Code project-memory template (skills, permissions, conventions).
+  - [`rules/opencode.json`](rules/opencode.json) — an [opencode](https://github.com/sst/opencode) configuration template with model, provider, and permission rules.
+  - [`rules/mcp-example.json`](rules/mcp-example.json) — an example `.mcp.json` you can drop into a project to wire up safe Model Context Protocol servers (filesystem, fetch, sequential thinking) for Claude Code, Cursor, and any MCP-aware client.
+  - [`rules/README.md`](rules/README.md) — how to copy and adapt the templates.
+
+### The workflow
+
+```bash
+git clone https://github.com/h-abar/scholar-dev-hub.git
+# Option A — open in a ready-to-go environment:
+#   VS Code → "Reopen in Container", or Codespaces → "New with options"
+# Option B — copy the templates you need into your own project:
+cp scholar-dev-hub/rules/AGENTS.md        your-project/
+cp scholar-dev-hub/rules/CLAUDE.md        your-project/
+cp scholar-dev-hub/rules/opencode.json    your-project/opencode.json
+cp scholar-dev-hub/rules/mcp-example.json your-project/.mcp.json
+# Then: Configure. Build.
+```
+
+The advantage as AI agents become part of every developer's workflow will no longer come from the model — it will come from the **quality of the engineering environment surrounding it**. These templates are my contribution toward making that environment open, reusable, and continuously evolving.
 
 ---
 
