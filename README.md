@@ -19,6 +19,15 @@
   - [Free Books & Courses](#free-books--courses)
   - [Practice & Interview Prep](#practice--interview-prep)
   - [Tools & Cheat Sheets](#tools--cheat-sheets)
+- [🧠 AI & Agents](#ai-and-agents)
+  - [Agent Frameworks & SDKs](#agent-frameworks)
+  - [Model Context Protocol (MCP) & Protocols](#mcp-and-protocols)
+  - [Coding Agents & AI-Powered IDEs](#coding-agents-ai-ides)
+  - [Browser, Computer-Use & Voice Agents](#browser-computer-use-voice-agents)
+  - [RAG, Memory & Knowledge](#rag-memory-knowledge)
+  - [Open Models, Inference & Fine-Tuning](#open-models-inference-finetuning)
+  - [Evaluation, Observability & Guardrails](#evaluation-observability-guardrails)
+  - [Orchestration & Prompt Engineering](#orchestration-prompt-engineering)
 - [🎓 For Students](#-for-students)
   - [CS Curricula](#cs-curricula)
   - [Free Learning Platforms](#free-learning-platforms)
@@ -78,6 +87,113 @@
 - [Oh My Zsh](https://ohmyz.sh) - Delightful open-source framework for managing your Zsh configuration, with hundreds of plugins.
 - [First Contributions](https://github.com/firstcontributions/first-contributions) - Hands-on tutorial that walks you through your very first open-source contribution.
 - [Awesome for Beginners](https://github.com/MunGell/awesome-for-beginners) - A list of awesome beginner-friendly projects to contribute to.
+
+---
+
+<a id="ai-and-agents"></a>
+## 🧠 AI & Agents
+
+> **الحديث والقوي:** قسم مخصّص لأحدث أدوات الذكاء الاصطناعي والوكلاء (AI Agents) لعام 2025–2026 — من أطر بناء الوكلاء إلى MCP، وأدوات البرمجة الذكية، واسترجاع المعرفة المُعزّز (RAG)، وتشغيل النماذج محليًا، وتقييم الوكلاء. هنا تكمُن الميزة التنافسية لهذا الدليل.
+
+### <a id="agent-frameworks"></a>Agent Frameworks & SDKs
+
+- [LangGraph](https://github.com/langchain-ai/langgraph) - Framework for building stateful, controllable multi-actor agents as directed graphs (by LangChain).
+- [CrewAI](https://github.com/crewAIInc/crewAI) - Role-based multi-agent framework where you define agents, tasks, and crews in plain Python.
+- [AutoGen](https://github.com/microsoft/autogen) - Microsoft's framework for building event-driven, scalable multi-agent conversations.
+- [PydanticAI](https://github.com/pydantic/pydantic-ai) - Typed agent framework from the Pydantic team with strong schema validation and streaming.
+- [AGNO](https://github.com/agno-agi/agno) - Lightweight framework for building multimodal agents with memory and tools (formerly Phidata).
+- [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) - Official OpenAI SDK for orchestrating agents with tools, hand-offs, and guardrails.
+- [LlamaIndex](https://github.com/run-llama/llama_index) - The leading data framework for connecting LLMs to your data via workflows and agents.
+- [smolagents](https://github.com/huggingface/smolagents) - Hugging Face's minimal library for code-acting LLM agents.
+- [Semantic Kernel](https://github.com/microsoft/semantic-kernel) - Microsoft's open-source SDK to combine AI services with conventional programming languages.
+- [Mastra](https://github.com/mastra-ai/mastra) - TypeScript-first agent framework with built-in memory, tools, and evals.
+
+### <a id="mcp-and-protocols"></a>Model Context Protocol (MCP) & Protocols
+
+- [Model Context Protocol](https://modelcontextprotocol.io/) - The open standard by Anthropic that lets models securely connect to tools and data sources.
+- [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) - The definitive, massive catalog of MCP servers (90k+ stars).
+- [Glama MCP directory](https://glama.ai/mcp/servers) - Searchable web directory of MCP servers, synced with the awesome list.
+- [awesome-mcp-clients](https://github.com/punkpeye/awesome-mcp-clients) - Companion list of editors and apps that speak MCP.
+- [mcp.so](https://mcp.so) - Searchable registry for finding and installing MCP servers.
+- [Smithery](https://smithery.ai) - Registry and CLI for discovering, installing, and running MCP servers.
+- [Context7](https://github.com/upstash/context7) - Up-to-date, versioned documentation as an MCP tool so agents code against current APIs.
+- [MCP Registry](https://github.com/mcp) - GitHub's official registry for MCP servers and clients.
+- [A2A (Agent2Agent) Protocol](https://github.com/google/A2A) - Google's open protocol for letting agents from different vendors talk to each other.
+
+### <a id="coding-agents-ai-ides"></a>Coding Agents & AI-Powered IDEs
+
+- [Claude Code](https://www.anthropic.com/claude-code) - Anthropic's agentic CLI that works directly in your terminal on real codebases.
+- [Cursor](https://cursor.com) - The AI code editor built around multi-file edits and an agent mode.
+- [Windsurf](https://windsurf.com) - Agentic IDE (formerly Codeium) with Cascade flows for autonomous edits.
+- [Zed](https://zed.dev) - Blazing-fast native editor with an integrated AI assistant panel.
+- [Aider](https://github.com/Aider-AI/aider) - CLI coding assistant that edits your git repo and commits with you as the pair programmer.
+- [Continue](https://github.com/continuedev/continue) - Open-source extension to build your own autocomplete and chat inside VS Code and JetBrains.
+- [Cline](https://github.com/cline/cline) - Open-source autonomous coding agent that runs in your editor with per-step approval.
+- [OpenCode](https://github.com/sst/opencode) - Open-source terminal-based AI coding agent.
+- [Void](https://github.com/voideditor/void) - Open-source Cursor-like editor with local model support.
+- [Sourcegraph Cody](https://github.com/sourcegraph/cody) - AI coding assistant that understands your entire codebase at scale.
+- [Amp](https://github.com/sourcegraph/amp) - Sourcegraph's agentic coding tool that works across many repos and tasks.
+
+### <a id="browser-computer-use-voice-agents"></a>Browser, Computer-Use & Voice Agents
+
+- [Browser Use](https://github.com/browser-use/browser-use) - Python library to let LLM agents drive a real browser.
+- [Stagehand](https://github.com/browserbase/stagehand) - TypeScript framework for building reliable web agents on top of Playwright.
+- [Skyvern](https://github.com/Skyvern-AI/skyvern) - Automate browser workflows on real websites using computer vision and LLMs.
+- [LaVague](https://github.com/lavague-ai/LaVague) - Build AI web agents that turn natural-language goals into actions on the page.
+- [OmniParser](https://github.com/microsoft/OmniParser) - Microsoft's model that parses UI screenshots into structured elements for agents.
+- [LiveKit Agents](https://github.com/livekit/agents) - Build fast real-time voice and multimodal agents on LiveKit.
+- [Pipecat](https://github.com/pipecat-ai/pipecat) - Python framework for realtime voice and multimodal conversational AI.
+- [Vapi](https://vapi.ai) - Platform for building and deploying production voice AI agents.
+- [Ultravox](https://github.com/fixie-ai/ultravox) - Open-weight real-time speech-to-speech model for voice agents.
+
+### <a id="rag-memory-knowledge"></a>RAG, Memory & Knowledge
+
+- [GraphRAG](https://github.com/microsoft/graphrag) - Microsoft's graph-based RAG that summarizes knowledge graphs for global queries.
+- [LightRAG](https://github.com/HKUDS/LightRAG) - Fast, lightweight graph-based RAG with low retrieval cost.
+- [RAGFlow](https://github.com/infiniflow/ragflow) - Deep document-understanding RAG with chunking grounded in templates and visual parsing.
+- [Haystack](https://github.com/deepset-ai/haystack) - Mature framework for production LLM pipelines, retrieval, and agents.
+- [Mem0](https://github.com/mem0ai/mem0) - Memory layer that lets agents remember user and session context across runs.
+- [Crawl4AI](https://github.com/unclecode/crawl4ai) - Fast, LLM-friendly web crawler optimized for feeding RAG pipelines.
+- [Unstructured](https://github.com/Unstructured-IO/unstructured) - Ingest and normalize any document (PDF, HTML, Email) into clean elements.
+- [txtai](https://github.com/neuml/txtai) - All-in-one embeddings store, RAG pipeline, and graph database in one library.
+
+### <a id="open-models-inference-finetuning"></a>Open Models, Inference & Fine-Tuning
+
+- [Ollama](https://ollama.com) - Run Llama, Qwen, DeepSeek, Mistral, and more locally with one command.
+- [LM Studio](https://lmstudio.ai) - Desktop app to discover, download, and chat with local models.
+- [vLLM](https://github.com/vllm-project/vllm) - The high-throughput, memory-efficient inference engine behind most production LLM serving.
+- [SGLang](https://github.com/sgl-project/sglang) - Fast structured generation and serving with RadixAttention caching.
+- [llama.cpp](https://github.com/ggerganov/llama.cpp) - C/C++ engine that runs Llama models on CPUs and consumer GPUs everywhere.
+- [MLX](https://github.com/ml-explore/mlx) - Apple's array framework for fast ML on Apple Silicon.
+- [Transformers](https://github.com/huggingface/transformers) - The canonical library for downloading and running state-of-the-art models.
+- [Together AI](https://www.together.ai) - Hosted open-model inference plus fine-tuning endpoints.
+- [Fireworks AI](https://fireworks.ai) - Fast serverless inference for many open models with fine-tuning.
+- [Groq](https://groq.com) - Ultra low-latency LLM inference on custom LPU hardware.
+- [Unsloth](https://github.com/unslothai/unsloth) - Supercharge LLM fine-tuning with 2-5x less memory and faster runs.
+- [Axolotl](https://github.com/OpenAccess-AI-Collective/axolotl) - Config-driven fine-tuning for nearly any open model.
+- [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) - Web-UI for fine-tuning 100+ LLMs and vision-language models.
+- [PEFT](https://github.com/huggingface/peft) - Parameter-efficient fine-tuning (LoRA, QLoRA) integrated with the HF stack.
+
+### <a id="evaluation-observability-guardrails"></a>Evaluation, Observability & Guardrails
+
+- [LangSmith](https://smith.langchain.com) - Trace, evaluate, and monitor LLM apps and multi-agent workflows.
+- [Langfuse](https://github.com/langfuse/langfuse) - Open-source, self-hostable LLM observability and evals.
+- [Arize Phoenix](https://github.com/Arize-ai/phoenix) - Open-source LLM tracing and evaluation toolkit.
+- [Braintrust](https://www.braintrust.dev) - Evaluation and prompt playground for serious LLM engineering.
+- [Helicone](https://github.com/Helicone/helicone) - Open-source observability, caching, and rate-limiting proxy for LLMs.
+- [AgentOps](https://github.com/AgentOps-AI/agentops) - Session replays, metrics, and monitoring for autonomous agents.
+- [Weights & Biases](https://wandb.ai) - Experiment tracking, model eval, and prompt management at scale.
+- [Guardrails AI](https://github.com/guardrails-ai/guardrails) - Validates LLM output against schemas and rules with retries.
+- [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) - NVIDIA's toolkit for adding programmable rails to LLM apps.
+- [OpenLLMetry (Traceloop)](https://github.com/traceloop/openllmetry) - OpenTelemetry-native tracing for LLM providers and frameworks.
+- [Promptfoo](https://github.com/promptfoo/promptfoo) - CLI to test prompts, models, and RAG pipelines against golden sets.
+
+### <a id="orchestration-prompt-engineering"></a>Orchestration & Prompt Engineering
+
+- [LiteLLM](https://github.com/BerriAI/litellm) - One proxy and SDK to call 100+ LLM providers with one consistent interface.
+- [Outlines](https://github.com/dottxt-ai/outlines) - Constrain LLM outputs to JSON, regex, or grammars deterministically.
+- [Guidance](https://github.com/guidance-ai/guidance) - Microsoft's templating language for fast, controlled generation.
+- [LMQL](https://github.com/eth-sri/lmql) - Query language for LLMs that turns natural-language constraints into guaranteed formats.
 
 ---
 
@@ -194,7 +310,6 @@
 ## 🤖 AI Tools & Productivity
 
 - [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts) - Curated prompts to get the most out of ChatGPT and other LLMs.
-- [GitHub Copilot](https://github.com/features/copilot) - AI pair programmer inside your editor (free for verified students).
 - [ChatGPT](https://chatgpt.com) - OpenAI's conversational assistant for coding, writing, and brainstorming.
 - [Claude](https://claude.ai) - Anthropic's AI assistant, strong at long documents, analysis, and coding.
 - [Elicit](https://elicit.com) - AI research assistant that finds papers and extracts data from them.
