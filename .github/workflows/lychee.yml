@@ -5,9 +5,11 @@ on:
     branches: [main]
     paths:
       - "README.md"
+      - ".github/workflows/lychee.yml"
   pull_request:
     paths:
       - "README.md"
+  workflow_dispatch:
   schedule:
     - cron: "0 6 * * 1" # every Monday at 06:00 UTC
 
